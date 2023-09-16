@@ -97,7 +97,7 @@ void APlayerPawn::TurnRight(float delta)
 	/* Need to rotate on the Z Axis - which is done by applying the delta to the Yaw*/
 	if (delta)
 	{
-		AddActorLocalRotation(FRotator(0, delta*1.2, 0));
+		AddActorLocalRotation(FRotator(0, delta*1.5, 0));
 	}
 }
 
